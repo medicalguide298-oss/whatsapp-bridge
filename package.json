@@ -1,0 +1,16 @@
+{
+  "name": "pharmacy-whatsapp-bridge",
+  "version": "1.0.0",
+  "description": "WhatsApp Baileys bridge server for Pharmacy Post Pro",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.19",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4"
+  }
+}
